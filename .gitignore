@@ -12,3 +12,9 @@ frontend/dist/
 .ganache/
 frontend/test-results/
 frontend/playwright-report/
+docs/
+.agents/
+.agent/
+*.pdf
+*.md
+!/README.md
