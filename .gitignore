@@ -10,3 +10,5 @@ typechain-types/
 .DS_Store
 frontend/dist/
 .ganache/
+frontend/test-results/
+frontend/playwright-report/

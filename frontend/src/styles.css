@@ -1,0 +1,27 @@
+:root { font-family: system-ui, sans-serif; color: #173b32; background: #f5f4ed; font-synthesis: none; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1056px; margin: auto; padding: 32px 28px 24px; }
+header { display: flex; justify-content: space-between; gap: 16px; align-items: center; border-bottom: 1px solid #d7ded6; padding-bottom: 24px; font-size: .8rem; }
+.brand { font-size: 1.4rem; font-weight: 700; }
+.intro { max-width: 660px; padding: 64px 0 28px; }
+.eyebrow { text-transform: uppercase; letter-spacing: .13em; font-size: .75rem; font-weight: 600; }
+h1 { font-size: clamp(2rem, 5vw, 3.4rem); letter-spacing: -.05em; line-height: 1.2; margin: 16px 0 22px; }
+p { line-height: 1.8; }
+.intro > p:last-child { color: #53675e; }
+.wallet { max-width: 720px; background: #fff; border: 1px solid #d7ded6; border-radius: 20px; padding: 28px; }
+.card-heading { display: flex; gap: 12px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+h2 { font-size: 1.2rem; margin: 0; }
+.badge { font-size: .75rem; background: #f0f1eb; padding: 7px 12px; border-radius: 32px; }
+.connected { color: #17633e; background: #e7f3e8; }
+dl { margin: 24px 0; }
+dt { color: #53675e; font-size: .8rem; margin-top: 16px; }
+dd { margin: 6px 0; overflow-wrap: anywhere; line-height: 1.6; }
+button { border: 0; border-radius: 10px; background: #173b32; color: #fff; padding: 14px 20px; font: inherit; cursor: pointer; margin-top: 12px; }
+button:disabled { opacity: .6; cursor: wait; }
+button:focus-visible { outline: 3px solid #b78031; outline-offset: 3px; }
+[role="alert"] { color: #883c13; background: #fff4e6; padding: 14px; border-radius: 10px; }
+.hint, footer { font-size: .75rem; color: #53675e; }
+.hint { margin-bottom: 0; margin-top: 24px; }
+footer { margin-top: 32px; }
+@media (max-width: 520px) { main { padding: 22px 18px; } header { align-items: start; flex-direction: column; } .intro { padding-top: 38px; } .wallet { padding: 20px; } }
